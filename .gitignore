@@ -1,0 +1,57 @@
+# Python Bytecode & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Distribution / Packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter & IDE
+.ipynb_checkpoints
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large Model Weights (>100MB) & Data Files (Do not commit to GitHub)
+*.pth
+*.pt
+*.onnx
+*.bin
+*.ckpt
+*.nii
+*.nii.gz
+*.vsi
+*.ets
+_*/
+*.ome.tif
+*.ome.tiff
+
+# Results, Caches, & QC Output
+results/
+temp/
+output/
+qc_overlays/
+manual_alignment/
+temp_inspect/
+*.log
